@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -275,6 +276,7 @@ public class Main {
 			}
 			
 		} while (!comando.equals("sair"));
+		entrada.close();
 	}
 
 }
